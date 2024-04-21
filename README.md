@@ -18,11 +18,9 @@ AND the output text "Generated logo.svg" is printed in the command line
 -WHEN I open the `logo.svg` file in a browser
 THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
-### Satisfies all of the preceding acceptance criteria plus the following:
+Uses the Inquirer packageLinks to an external site..
 
-√Uses the Inquirer packageLinks to an external site..
-
-√Uses the Jest packageLinks to an external site. for a suite of unit tests.
+Uses the Jest packageLinks to an external site. for a suite of unit tests.
 
 The application must have Triangle, Square, and Circle classes.
 
