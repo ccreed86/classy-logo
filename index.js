@@ -1,6 +1,5 @@
 // Packages needed for this application
 const inquirer =require('inquirer')
-const jest = require('jest')
 const fs = require("fs");
 const generateSVG = require("./lib/shapes.js")
 
@@ -23,7 +22,7 @@ const questions = [
         type: "list",
         name: "shape",
         message: "What shape would you like your logo background to be?",
-        choices: ["circle", "triangle", "square"],
+        choices: ["Circle", "Triangle", "Square"],
     },
     {
         // this will be the background shape color for the logo
