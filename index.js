@@ -1,7 +1,7 @@
 // Packages needed for this application
 const inquirer = require('inquirer')
 const fs = require("fs");
-const generateSVG = require("./lib/shapes.js")
+const {generateSVG} = require('./lib/shapes.js')
 
 // Prompt questions for logo text, text color, shape, and shape color.
 const questions = [
@@ -42,7 +42,6 @@ function init() {
     inquirer.prompt(questions).then((answers) => {
         console.log(answers)
        const markdown = generateSVG(answers)
-        console.log(markdown);
         writeToFile("logo.svg", markdown)    
         })
     }
