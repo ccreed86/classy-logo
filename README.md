@@ -5,6 +5,8 @@ A Scalable Vector Graphics Logo file generator.
 
 A basic logo generatore utilizing svg files.
 
+https://drive.google.com/file/d/1FXak_1Aytrb8g387lH9OTGuOBEkCKyAu/view?usp=sharing
+
 <!-- Video file goes here -->
 
 ## Table of Contents (Optional)
